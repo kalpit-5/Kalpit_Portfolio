@@ -7,8 +7,8 @@ import {
   RxLinkedinLogo,
 } from "react-icons/rx";
 
-
-export const RESUME_LINK = "https://drive.google.com/file/d/1UiEytOIeRZF8w-Tu4DRbevUUTcS-tKn0/view?usp=drive_link";
+export const RESUME_LINK =
+  "https://drive.google.com/file/d/1u9XXDRGrFW-G8Z3Fr-UE1e7NLEe-NJZz/view?usp=drive_link";
 
 export const SKILL_DATA = [
   {
@@ -279,7 +279,7 @@ export const PROJECTS = [
   {
     title: "Full-Featured Learning Management System ",
     description:
-      'An intuitive LMS web application where instructors manage and publish courses, and students can browse, purchase, and learn with ease. Built with modern UI, secure access, and stripe payment gateway',
+      "An intuitive LMS web application where instructors manage and publish courses, and students can browse, purchase, and learn with ease. Built with modern UI, secure access, and stripe payment gateway",
     image: "/projects/primelearn.png",
     githublink: "https://github.com/kalpit-5/PrimeLearn-MERN-LMS",
     livelink: "https://prime-learn.vercel.app/",
@@ -307,7 +307,7 @@ export const PROJECTS = [
   {
     title: "Modern E-commerce Store with Admin Panel",
     description:
-      'A Full‑stack MERN E‑Commerce platform with user authentication, product browsing with sorting feature, cart functionality, stripe payment gateway, order management, and an admin dashboard for product and order control. ',
+      "A Full‑stack MERN E‑Commerce platform with user authentication, product browsing with sorting feature, cart functionality, stripe payment gateway, order management, and an admin dashboard for product and order control. ",
     image: "/projects/velvet_vista.png",
     githublink: "https://github.com/kalpit-5/velvetvista-fullstack-ecommerce",
     livelink: "https://velvetvista.vercel.app/",
@@ -321,7 +321,7 @@ export const PROJECTS = [
   {
     title: "Real-Time user engaging Social Media App",
     description:
-      'This dynamic social media app features real-time content sharing, secure login, infinite scrolling feeds, and responsive design—offering users a smooth and engaging way to connect and interact.',
+      "This dynamic social media app features real-time content sharing, secure login, infinite scrolling feeds, and responsive design—offering users a smooth and engaging way to connect and interact.",
     image: "/projects/vibin.png",
     githublink: "https://github.com/kalpit-5/Vibin-social-media-app",
     livelink: "https://vibin-gamma.vercel.app/",
@@ -335,7 +335,7 @@ export const PROJECTS = [
   {
     title: "Job Portal with Role-Based Access",
     description:
-      'A robust job portal platform featuring secure authentication, role-based access for users and admins, job listings, applications, resume uploads, and admin dashboards to manage jobs and applicants.',
+      "A robust job portal platform featuring secure authentication, role-based access for users and admins, job listings, applications, resume uploads, and admin dashboards to manage jobs and applicants.",
     image: "/projects/hiredup.png",
     githublink: "https://github.com/kalpit-5/HiredUp",
     livelink: "https://hiredup.onrender.com/",
