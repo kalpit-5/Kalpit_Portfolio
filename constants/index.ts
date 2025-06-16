@@ -146,7 +146,7 @@ export const FRONTEND_SKILL = [
   },
   {
     skill_name: "Vite",
-    image: "vite.js.png",
+    image: "Vite.js.png",
     width: 70,
     height: 70,
   },
@@ -170,7 +170,7 @@ export const FRONTEND_SKILL = [
   },
   {
     skill_name: "Cloudinary",
-    image: "cloudinary.png",
+    image: "Clodunary.png",
     width: 80,
     height: 80,
   },
