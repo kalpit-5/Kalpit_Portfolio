@@ -7,8 +7,12 @@ import {
   RxLinkedinLogo,
 } from "react-icons/rx";
 
-export const RESUME_LINK =
-  "https://drive.google.com/file/d/1u9XXDRGrFW-G8Z3Fr-UE1e7NLEe-NJZz/view?usp=drive_link";
+//import dotenv from dotenv ;
+
+// export const RESUME_LINK =
+//   "https://drive.google.com/file/d/1u9XXDRGrFW-G8Z3Fr-UE1e7NLEe-NJZz/view?usp=drive_link";
+
+export const RESUME_LINK = process.env.RESUME_LINK_IS_THIS;
 
 export const SKILL_DATA = [
   {
