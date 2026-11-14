@@ -7,7 +7,8 @@ import {
   RxLinkedinLogo,
 } from "react-icons/rx";
 
-export const RESUME_LINK = process.env.RESUME_LINK_IS_THIS;
+// export const RESUME_LINK = process.env.RESUME_LINK_IS_THIS;
+export const RESUME_LINK = 'https://drive.google.com/drive/folders/1_adgM8DU14hNE8C62NaMBK2TMK9ECSBZ';
 
 export const SKILL_DATA = [
   {

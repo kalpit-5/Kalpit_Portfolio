@@ -36,9 +36,9 @@ export const ProjectCard = ({
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
         <p className=" mt-2 text-gray-300">{description}</p>
 
-      <div className="mt-6 flex items-center justify-between">
-        {/* Tech Icons */}
-        <div className="flex items-center">
+        <div className="mt-6 flex items-center justify-between">
+          {/* Tech Icons */}
+          {/* <div className="flex items-center">
           {iconLists?.map((icon, i) => (
             <div
               key={icon}
@@ -56,33 +56,33 @@ export const ProjectCard = ({
               />
             </div>
           ))}
+        </div> */}
+
+          {/* Source Code + Live Website Links (hidden on small screens) */}
+          <div className="flex flex-row gap-3">
+            <Link
+              href={githublink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-medium text-purple-400 hover:underline flex items-center gap-1"
+            >
+              <FaGithub className="hidden md:flex w-5 h-5" />
+              Source Code
+            </Link>
+
+            <Link
+              href={livelink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-medium text-purple-400 hover:underline flex items-center gap-1"
+            >
+              <FaEarthAsia className="hidden md:flex w-5 h-5" />
+              Live Link
+            </Link>
+          </div>
         </div>
 
-        {/* Source Code + Live Website Links (hidden on small screens) */}
-        <div className="flex flex-row gap-3">
-          <Link
-            href={githublink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm font-medium text-purple-400 hover:underline flex items-center gap-1"
-          >
-            <FaGithub className="hidden md:flex w-5 h-5" />
-            Source Code
-          </Link>
-
-          <Link
-            href={livelink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm font-medium text-purple-400 hover:underline flex items-center gap-1"
-          >
-            <FaEarthAsia className="hidden md:flex w-5 h-5" />
-            Live Link
-          </Link>
-        </div>
       </div>
-
-    </div>
     </div >
   );
 };
