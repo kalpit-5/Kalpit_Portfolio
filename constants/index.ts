@@ -7,103 +7,153 @@ import {
   RxLinkedinLogo,
 } from "react-icons/rx";
 
-//import dotenv from dotenv ;
-
-// export const RESUME_LINK =
-//   "https://drive.google.com/file/d/1u9XXDRGrFW-G8Z3Fr-UE1e7NLEe-NJZz/view?usp=drive_link";
-
 export const RESUME_LINK = process.env.RESUME_LINK_IS_THIS;
 
 export const SKILL_DATA = [
   {
-    skill_name: "HTML",
-    image: "html.png",
+    skill_name: "Simple Analytics",
+    image: "simpleanalytics.svg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "CSS",
-    image: "css.png",
+    skill_name: "Slack",
+    image: "slack.svg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
+    skill_name: "Google Sheets",
+    image: "google-sheets.svg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "JavaScript",
-    image: "js.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
-    width: 70,
-    height: 70,
-  },
-
-  {
-    skill_name: "React",
-    image: "react.png",
-    width: 80,
-    height: 80,
-  },
-
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
-    width: 80,
-    height: 80,
-  },
-
-  {
-    skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
-  },
-  {
-    skill_name: "Node.js",
-    image: "node.png",
+    skill_name: "Maze",
+    image: "maze-dark.svg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Express.js",
-    image: "express.png",
+    skill_name: "Hotjar",
+    image: "hotjar.svg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Redux",
-    image: "redux.png",
+    skill_name: "Figma",
+    image: "figma.svg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "React Query",
-    image: "reactquery.png",
+    skill_name: "Perplexity",
+    image: "perplexity.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Google Gemini",
+    image: "gemini.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Claude",
+    image: "claude.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "ChatGPT",
+    image: "chatgpt.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "PowerBI",
+    image: "powerbi.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Confluence",
+    image: "confluence.svg",
     width: 80,
     height: 80,
   },
 
-  {
-    skill_name: "Framer Motion",
-    image: "framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Stripe",
-    image: "stripe.png",
-    width: 80,
-    height: 80,
-  },
 ] as const;
+
+export const FRONTEND_SKILL = [
+  {
+    skill_name: "MySQL",
+    image: "mysql.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Tableau",
+    image: "tableau.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Amplitude",
+    image: "amplitude.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Mixpanel",
+    image: "mixpanel.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Microsoft Excel",
+    image: "microsoft-excel.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Google Analytics",
+    image: "google-analytics.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Trello",
+    image: "trello.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Linear",
+    image: "linear-dark.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Miro",
+    image: "miro_22399.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Notion",
+    image: "notion.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Jira",
+    image: "jira.svg",
+    width: 80,
+    height: 80,
+  },
+]
+
 
 export const SOCIALS = [
   {
@@ -116,170 +166,24 @@ export const SOCIALS = [
     icon: RxLinkedinLogo,
     link: "https://www.linkedin.com/in/kalpitparmar/",
   },
-  // {
-  //   name: "Twitter",
-  //   icon: RxTwitterLogo,
-  //   link: "https://twitter.com",
-  // },
 ] as const;
 
-export const FRONTEND_SKILL = [
-  {
-    skill_name: "Firebase",
-    image: "firebase.png",
-    width: 55,
-    height: 55,
-  },
-  {
-    skill_name: "Socket.io",
-    image: "socketio.svg",
-    width: 75,
-    height: 75,
-  },
-  {
-    skill_name: "jwt",
-    image: "jwt.png",
-    width: 85,
-    height: 85,
-  },
-  {
-    skill_name: "PostgreSQL",
-    image: "postgresql.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Vite",
-    image: "Vite.js.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Material UI",
-    image: "mui.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Git",
-    image: "git.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "github",
-    image: "github.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Cloudinary",
-    image: "Clodunary.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Clerk",
-    image: "clerk.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "MySQL",
-    image: "mysql.png",
-    width: 70,
-    height: 70,
-  },
-] as const;
 
-export const BACKEND_SKILL = [
-  // {
-  //   skill_name: "Node.js",
-  //   image: "node.png",
-  //   width: 80,
-  //   height: 80,
-  // },
-  // {
-  //   skill_name: "Express.js",
-  //   image: "express.png",
-  //   width: 80,
-  //   height: 80,
-  // },
-  // {
-  //   skill_name: "MongoDB",
-  //   image: "mongodb.png",
-  //   width: 40,
-  //   height: 40,
-  // },
-  // {
-  //   skill_name: "Firebase",
-  //   image: "firebase.png",
-  //   width: 55,
-  //   height: 55,
-  // },
-  // {
-  //   skill_name: "PostgreSQL",
-  //   image: "postgresql.png",
-  //   width: 70,
-  //   height: 70,
-  // },
-  // {
-  //   skill_name: "MySQL",
-  //   image: "mysql.png",
-  //   width: 70,
-  //   height: 70,
-  // },
-  // {
-  //   skill_name: "Prisma",
-  //   image: "prisma.png",
-  //   width: 70,
-  //   height: 70,
-  // },
-  // {
-  //   skill_name: "Graphql",
-  //   image: "graphql.png",
-  //   width: 80,
-  //   height: 80,
-  // },
-] as const;
 
-export const FULLSTACK_SKILL = [
-  // {
-  //   skill_name: "React Native",
-  //   image: "reactnative.png",
-  //   width: 70,
-  //   height: 70,
-  // },
-  // {
-  //   skill_name: "Tauri",
-  //   image: "tauri.png",
-  //   width: 70,
-  //   height: 70,
-  // },
-  // {
-  //   skill_name: "Docker",
-  //   image: "docker.png",
-  //   width: 70,
-  //   height: 70,
-  // },
-  // {
-  //   skill_name: "Figma",
-  //   image: "figma.png",
-  //   width: 50,
-  //   height: 50,
-  // },
-] as const;
-
-export const OTHER_SKILL = [
-  // {
-  //   skill_name: "Go",
-  //   image: "go.png",
-  //   width: 60,
-  //   height: 60,
-  // },
-] as const;
 
 export const PROJECTS = [
+  {
+    title: "AI-Powered Onboarding Funnel Analyzer",
+    description:
+      "An AI-powered product analytics tool that analyzes onboarding funnel drop-offs, uncovers behavioral insights, identifies activation bottlenecks, and prioritizes data-driven experiments using RICE to improve user activation and conversion.",
+    image: "/projects/onboarding-analyzer.png",
+    githublink: "https://github.com/kalpit-5/Onboarding-Funnel-Analyzer",
+    livelink: "https://onboarding-funnel-analyzer.vercel.app/",
+    iconLists: [
+      "/skills/claude.png",
+      "/skills/analytics.png",
+    ],
+  },
   {
     title: "Full-Featured Learning Management System ",
     description:
@@ -350,20 +254,7 @@ export const PROJECTS = [
       "/skills/node.png",
     ],
   },
-  // {
-  //   title: "Interactive Cards Portfolio",
-  //   description:
-  //     'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that ',
-  //   image: "/projects/project-2.png",
-  //   githublink: "https://example.com",
-  //   livelink: "https://www.amazon.com",
-  //   iconLists: [
-  //     "/skills/react.png",
-  //     "/skills/tailwind.png",
-  //     "/skills/ts.png",
-  //     "/skills/firebase.png",
-  //   ],
-  // },
+
 ] as const;
 
 export const FOOTER_DATA = [
@@ -459,6 +350,29 @@ export const LINKS = {
 export const expCards = [
   {
     review:
+      "Kalpit demonstrated strong product thinking and execution, helping build and scale AI-powered products from 0-to-1. His ability to translate customer insights into product requirements and collaborate cross-functionally drove measurable improvements in product quality, operational efficiency, and business impact.",
+    imgPath: "/experience/quinn.jpeg",
+    logoPath: "/experience/quinn.jpeg",
+    title: "Associate Product Manager",
+    company_name: "Quinn",
+    date: "September 2025 - Present",
+    responsibilities: [
+      "Co-led 0-to-1 development of a GenAI catalogue image product, translating customer discovery insights into a revenue-generating product line while reducing customer cost per image by ~90%.",
+
+      "Conducted customer interviews and product usage analysis to identify workflow bottlenecks, define product requirements, and prioritize high-impact features.",
+
+      "Designed a human-in-the-loop quality assurance system with feedback mechanisms, achieving 87% first-pass acceptance while balancing output quality, generation speed, and reviewer effort.",
+
+      "Partnered with engineering to build an automated generation pipeline using Seedream and Gemini, scaling output 20x (50 to 1,000+ images/day) and reducing turnaround time from days to minutes.",
+
+      "Introduced AI-powered quality validation controls, reducing manual review effort by 60%, measured through before-and-after operational data.",
+
+      "Drove root-cause analysis and engineering prioritization, reducing recurring production incidents by 30% and contributing to the delivery of 8 customer-facing features."
+    ],
+  },
+
+  {
+    review:
       "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
     imgPath: "/experience/exp1.jpeg",
     logoPath: "/experience/exp1.jpeg",
@@ -489,16 +403,5 @@ export const expCards = [
       "Developed modular backend components using Express middleware and controller-service architecture, improving code reusability and simplifying future feature integration.",
     ],
   },
-  // {
-  //   review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-  //   imgPath: "/images/exp3.png",
-  //   logoPath: "/images/logo3.png",
-  //   title: "React Native Developer",
-  //   date: "March 2019 - May 2020",
-  //   responsibilities: [
-  //     "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-  //     "Improved app performance and user experience through code optimization and testing.",
-  //     "Coordinated with the product team to implement features based on feedback.",
-  //   ],
-  // },
+
 ];

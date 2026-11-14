@@ -26,7 +26,7 @@ export const HeroContent = () => {
         >
           <SparklesIcon className="text-[rgb(180,155,255)] mr-[10px] h-5 w-5" />
           <h1 className=" text-[#030014] md:text-[#b49bff] text-[13px] transition-colors duration-300">
-            Software Developer
+            Associate Product Manager
           </h1>
         </motion.div>
 
@@ -39,11 +39,13 @@ export const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl text-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Redefining {" "}
+            Building {" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              Digital Experience
+              AI Products
             </span>{" "}
-            Through Code.
+            That Solve <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+              Real Problems.
+            </span>{" "}
           </span>
         </motion.div>
 
@@ -51,7 +53,7 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I design and develop full stack web experiences that are fast, functional, and user-focused. Scroll down to see my latest work and skills. 🚀
+          I'm passionate about understanding customer problems, building AI-powered products, and turning ideas into meaningful user experiences. Explore my product journey, projects, and impact. 🚀
         </motion.p>
 
 
